@@ -1,0 +1,332 @@
+- _title: Chmura obliczeniowa — podstawowe pojęcia
+  answers:
+  - answer: publiczna
+    number: '1'
+    question: Jakiego rodzaju chmura wymaga posiadania łącza internetowego i pozwala
+      każdemu użytkownikowi korzystać z jej usług?
+  - answer: IaaS
+    number: '2'
+    question: Jaki model usług daje największą kontrolę nad zasobami?
+  - answer: SaaS
+    number: '3'
+    question: W jakim modelu usług zarządzanie infrastrukturą jest najprostsze?
+  - answer: PaaS
+    number: '4'
+    question: Jaki model usług oferuje najnowsze funkcjonalności i aktualizacje?
+  - answer: usługa Azure Fabric
+    number: '5'
+    question: Co decyduje o izolowaniu środowisk klientów w chmurze Azure?
+  - answer: podmiot
+    number: '6'
+    question: Jak nazywa się pierwszy poziom dostępu w chmurze Microsoft Azure?
+  - answer: zasób
+    number: '7'
+    question: Jaki jest najniższy poziom szczegółowości dostępu do zasobów?
+  - answer: grupa zasobów
+    number: '8'
+    question: Jaki jest zalecany poziom szczegółowości dostępu do zasobów Azure?
+  - answer: minutowy
+    number: '9'
+    question: Jaki jest system naliczania opłat w chmurze Azure?
+  - answer: IaC
+    number: '10'
+    question: Częścią jakiego modelu są szablony ARM?
+- _title: Sieci — podstawa modelu IaaS
+  answers:
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '1'
+    question: Jaki model usług wykorzystuje sieć Azure?
+  - answer: CIDR
+    number: '2'
+    question: Co definiuje zakres adresów IP?
+  - answer: PaaS
+    number: '3'
+    question: Jakie usługi są dołączane do sieci wirtualnej za pomocą punktów końcowych?
+  - answer: serwer Azure DNS
+    number: '4'
+    question: 'Domyślnym serwerem DNS w chmurze Azure jest:'
+  - answer: w dowolnym momencie
+    number: '5'
+    question: Kiedy można tworzyć punkty usług?
+  - answer: dynamiczny lub statyczny
+    number: '6'
+    question: 'Prywatny adres IP w sieci Azure jest:'
+  - answer: dynamiczny lub statyczny
+    number: '7'
+    question: 'Publiczny adres IP w sieci Azure jest:'
+  - answer: zbiór reguł bezpieczeństwa kontrolujących przepływ ruchu
+    number: '8'
+    question: 'Sieciowa grupa zabezpieczeń to:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '9'
+    question: Co definiuje sieciowa grupa zabezpieczeń?
+  - answer: sieci wirtualnej
+    number: '10'
+    question: Do jakiego zasobu można przypisać sieciową grupę zabezpieczeń?
+- _title: Infrastruktura jako usługa — pierwsza warstwa chmury obliczeniowej
+  answers:
+  - answer: Windows Server 2008 R2 SP1
+    number: '1'
+    question: Jaka jest najstarsza dostępna wersja systemu operacyjnego Windows Server
+      w chmurze Azure?
+  - answer: niski wskaźnik IOPS
+    number: '2'
+    question: Jakie cechy ma maszyna wirtualna w podstawowej warstwie rozmiarów?
+  - answer: wsadowe przetwarzanie danych
+    number: '3'
+    question: Jakie zastosowania ma maszyna wirtualna o niskim priorytecie?
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '4'
+    question: 'Opcja Rozmiar w widoku maszyny wirtualnej jest wykorzystywana do:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '5'
+    question: 'Element Runbook służy do:'
+  - answer: rozdzielania obciążenia pomiędzy maszyny wirtualne umieszczone w puli
+      zaplecza
+    number: '6'
+    question: 'Moduł równoważenia obciążenia służy do:'
+  - answer: tworzenie maszyn w różnych szafach
+    number: '7'
+    question: 'Efektem umieszczenia maszyn wirtualnych w tym samym zestawie dostępności
+      jest:'
+  - answer: powiększania
+    number: '8'
+    question: 'Rozbudowa infrastruktury poprzez tworzenie dodatkowych maszyn wirtualnych
+      nosi nazwę:'
+  - answer: skalowania w poziomie
+    number: '9'
+    question: 'Powiększanie zestawu maszyn wirtualnych nosi nazwę:'
+  - answer: zestaw skalowania
+    number: '10'
+    question: 'Do skalowania infrastruktury wykorzystuje się:'
+- _title: Azure App Service — udostępnianie aplikacji internetowych bez serwera
+  answers:
+  - answer: PaaS
+    number: '1'
+    question: 'Usługa aplikacji w chmurze Azure to przykład modelu:'
+  - answer: mniejszą
+    number: '2'
+    question: Jaką kontrolę nad aplikacją ma użytkownik w planie usługi aplikacji
+      w porównaniu z wirtualną maszyną?
+  - answer: mniejszy
+    number: '3'
+    question: Jaki jest nakład pracy administracyjnej w planie usługi aplikacji w
+      porównaniu z wirtualną maszyną?
+  - answer: aplikacji internetowych
+    number: '4'
+    question: 'Plan usługi aplikacji stosuje się do udostępniania:'
+  - answer: udostępniania różnych wersji aplikacji
+    number: '5'
+    question: 'Miejsca wdrożenia aplikacji służą do:'
+  - answer: skalowanie aplikacji w poziomie
+    number: '6'
+    question: 'Wzrosty obciążenia obsługuje się w planie usługi aplikacji poprzez:'
+  - answer: usługa Application Insights
+    number: '7'
+    question: 'Najlepszym narzędziem do monitorowania aplikacji internetowej w chmurze
+      Azure jest:'
+  - answer: utworzenie menedżera ruchu
+    number: '8'
+    question: 'Wysoką dostępność aplikacji internetowej uzyskuje się poprzez:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '9'
+    question: 'Menedżer ruchu obsługuje:'
+  - answer: środowisko ASE
+    number: '10'
+    question: 'Dedykowane, odizolowane środowisko aplikacji internetowej w chmurze
+      Azure to:'
+- _title: Platforma danych Azure
+  answers:
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '1'
+    question: 'Bazy danych w chmurze Azure można tworzyć w modelu:'
+  - answer: konfiguracją
+    number: '2'
+    question: 'Maszyna wirtualna z serwerem SQL Server różni się od maszyny bez serwera:'
+  - answer: Database as a Service
+    number: '3'
+    question: 'Baza Azure SQL Database jest również określania mianem modelu:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '4'
+    question: 'Warstwę cenową bazy Azure SQL Database określa:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '5'
+    question: 'Zapytania do bazy Azure SQL Database można wysyłać za pomocą:'
+  - answer: utworzyć regułę zapory zawierającą adres IP
+    number: '6'
+    question: 'Aby połączyć się z bazą Azure SQL Database, należy:'
+  - answer: skonfigurować replikację geograficzną bazy
+    number: '7'
+    question: 'Aby utworzyć replikę bazy Azure SQL Database, należy:'
+  - answer: utworzyć grupę trybu failover
+    number: '8'
+    question: 'Aby uzyskać wysoką dostępność bazy Azure SQL Database, należy:'
+  - answer: dynamiczne maskowanie danych
+    number: '9'
+    question: 'Do maskowania kolumn danych w bazie Azure SQL Database wykorzystuje
+      się:'
+  - answer: zaawansowaną ochronę przed zagrożeniami
+    number: '10'
+    question: 'Do wykrywania potencjalnych zagrożeń bazy danych stosuje się:'
+- _title: 'Przenoszenie danych do Azure: magazyn, kopie zapasowe i usługa Site Recovery'
+  answers:
+  - answer: geograficznie nadmiarowy
+    number: '1'
+    question: 'Aby uzyskać najwyższy wskaźnik SLA, magazyn danych musi być:'
+  - answer: w obu wersjach
+    number: '2'
+    question: 'Konto magazynu jest dostępne w wersji:'
+  - answer: tak
+    number: '3'
+    question: Czy można w chmurze Azure utworzyć kopię lokalnej bazy danych?
+  - answer: tak
+    number: '4'
+    question: Czy można w chmurze Azure wdrożyć bezpośrednio bazę danych?
+  - answer: konto magazynu
+    number: '5'
+    question: 'Aby móc korzystać z usługi Site Recovery, należy utworzyć:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '6'
+    question: 'Usługę tworzenia kopii zapasowej w chmurze Azure wykorzystuje się do
+      zabezpieczania:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '7'
+    question: 'Usługę Site Recovery wykorzystuje się do zabezpieczania:'
+  - answer: dokonać przełączenia maszyn
+    number: '8'
+    question: 'Aby przenieść maszynę wirtualną do chmury za pomocą usługi Site Recovery,
+      należy:'
+  - answer: zadania importu/eksportu danych
+    number: '9'
+    question: 'W celu przeniesienia do chmury dużej ilość danych można użyć:'
+- _title: Chmura hybrydowa — rozszerzenie lokalnej infrastruktury na chmurę Azure
+  answers:
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '1'
+    question: 'W niektórych sytuacjach chmura hybrydowa jest jedynym rozwiązaniem
+      ze względu na:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '2'
+    question: 'Sieć lokalną z chmurą Azure można łączyć za pomocą:'
+  - answer: brama sieci wirtualnej
+    number: '3'
+    question: 'Do utworzenia połączenia typu lokacja – lokacja potrzebna jest:'
+  - answer: sieci lokalnej
+    number: '4'
+    question: 'Brama sieci lokalnej przechowuje konfigurację:'
+  - answer: tak, ale tylko dla niektórych urządzeń
+    number: '5'
+    question: Czy z portalu Azure można pobrać konfigurację urządzenia VPN?
+  - answer: Resource Manager
+    number: '6'
+    question: Jaki jest zalecany model wdrożenia połączenia równorzędnego?
+  - answer: kontroler domeny w chmurze Azure
+    number: '7'
+    question: 'Aby móc zarządzać tożsamością użytkowników w chmurze hybrydowej, należy
+      wdrożyć:'
+  - answer: z wybranymi usługami Azure
+    number: '8'
+    question: 'Lokalna brama danych może być używana:'
+  - answer: rozszerzenie chmury Azure na lokalne centrum danych
+    number: '9'
+    question: 'Azure Stack to:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '10'
+    question: 'Azure Stack oferuje modele:'
+- _title: Azure Active Directory — tożsamość w chmurze
+  answers:
+  - answer: podmiotu
+    number: '1'
+    question: 'Usługa Azure Active Directory znajduje się na szczycie hierarchii:'
+  - answer: tak
+    number: '2'
+    question: Czy konto użytkownika może należeć do kilku podmiotów?
+  - answer: tak
+    number: '3'
+    question: Czy usługę AAD można wykorzystywać wraz z kontami Microsoft Live?
+  - answer: tak
+    number: '4'
+    question: Czy usługę AAD można synchronizować z usługą Windows Server AD?
+  - answer: 500 000 obiektów
+    number: '5'
+    question: 'W bezpłatnej warstwie usługi AAD można utworzyć:'
+  - answer: podać nazwę posiadanej domeny
+    number: '6'
+    question: 'Aby skonfigurować niestandardową domenę, należy:'
+  - answer: jeden z powyższych rekordów
+    number: '7'
+    question: 'Do weryfikacji domeny niestandardowej wykorzystuje się:'
+  - answer: wszystkim powyższym
+    number: '8'
+    question: 'Mechanizm RBAC można wykorzystywać do przypisywania ról:'
+  - answer: użytkownikom i grupom użytkowników
+    number: '9'
+    question: 'Role można przypisywać:'
+  - answer: zarejestrować aplikację w usłudze AAD
+    number: '10'
+    question: 'Aby aplikacja mogła uwierzytelniać użytkowników za pomocą usługi AAD,
+      należy:'
+- _title: Bezpieczeństwo i administracja w chmurze Azure
+  answers:
+  - answer: w trzech
+    number: '1'
+    question: W ilu kopiach przechowywane są dane w chmurze Azure?
+  - answer: wycieku poświadczeń
+    number: '2'
+    question: 'Większość włamań do zasobów jest efektem:'
+  - answer: uwierzytelnienie wieloskładnikowe
+    number: '3'
+    question: 'Skrót MFA oznacza:'
+  - answer: wszystkie powyższe
+    number: '4'
+    question: 'W procesie MFA wykorzystuje się:'
+  - answer: FaaS
+    number: '5'
+    question: 'Zapora Azure to przykład modelu:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '6'
+    question: 'Zasoby w chmurze Azure mogą być szyfrowane za pomocą:'
+  - answer: magazynu kluczy
+    number: '7'
+    question: 'Aby korzystać z własnych kluczy, należy użyć:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '8'
+    question: 'Przeznaczeniem centrum zabezpieczeń Azure jest:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '9'
+    question: 'Za pomocą centrum zabezpieczeń Azure może chronić zasoby:'
+  - answer: kontrolę nad użytkownikami korzystającymi z maszyn wirtualnych
+    number: '10'
+    question: 'Dostęp just in time zapewnia:'
+- _title: Dobre praktyki
+  answers:
+  - answer: jak najwięcej informacji
+    number: '1'
+    question: 'Nazwa zasobu powinna zawierać:'
+  - answer: udostępniane w Internecie tylko w razie potrzeby
+    number: '2'
+    question: 'Publiczne punkty końcowe powinny być:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '3'
+    question: 'Do kontrolowania dostępu administracyjnego do maszyn wirtualnych służy:'
+  - answer: bezpłatną dla administratorów
+    number: '4'
+    question: 'Uwierzytelnienie wieloskładnikowe jest usługą:'
+  - answer: Infrastructure as Code (infrastruktura jako kod)
+    number: '5'
+    question: 'Akronim IaC oznacza:'
+  - answer: plik w formacie JSON
+    number: '6'
+    question: 'Szablon ARM to:'
+  - answer: obie powyższe odpowiedzi są poprawne
+    number: '7'
+    question: 'W wierszu poleceń można korzystać z:'
+  - answer: wdrażać wiele zasobów
+    number: '8'
+    question: 'Za pomocą modelu IaC można:'
+  - answer: Desired State Configuration (konfiguracja pożądanego stanu)
+    number: '9'
+    question: 'Akronim DSC oznacza:'
+  - answer: import skryptu, kompilacja skryptu, rejestracja węzła
+    number: '10'
+    question: 'Automatyzacja za pomocą platformy DSC składa się z następujących etapów:'
