@@ -15,13 +15,18 @@ if __name__ == "__main__":
 
         # clear screen
         os.system('cls' if os.name == 'nt' else 'clear')
-        print(f"{index+1}/{len(data)}")
+        print(f"Pytanie {index+1}/{len(data)}")
+        print()
 
         print(question['_question'])
         for quiz_answer in question['answers']:
-            print(quiz_answer)
+            print(f" - {quiz_answer}")
 
         answer = question['answer']
-        input()
-        print(answer)
-        input()
+        print()
+        input("Naciśnij [ENTER] aby zobaczyć odpowiedź.")
+        print("\r                                        ")
+        print(f"Odpowiedź: {answer}")
+        print()
+        input("Naciśnij [ENTER] aby przejść do następnego pytania.\n")
+        
