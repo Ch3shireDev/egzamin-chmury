@@ -10,11 +10,12 @@ if __name__ == "__main__":
 
     random.shuffle(data)
 
-    for question in data:
+    # enumerate with index
+    for index, question in enumerate(data):
 
         # clear screen
         os.system('cls' if os.name == 'nt' else 'clear')
-        print()
+        print(f"{index+1}/{len(data)}")
 
         print(question['_question'])
         for quiz_answer in question['answers']:
